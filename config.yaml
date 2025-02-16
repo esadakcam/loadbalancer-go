@@ -1,0 +1,5 @@
+backends:
+  - localhost:8081
+  - localhost:8082
+
+port: 8080
