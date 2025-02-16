@@ -7,10 +7,6 @@ import (
 	"sync"
 )
 
-func LoadBalancer() string {
-	return "Load Balancer"
-}
-
 type Server struct {
 	backends    []string
 	port        int
